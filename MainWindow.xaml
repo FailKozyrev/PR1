@@ -1,0 +1,26 @@
+﻿<Window x:Class="wild_animals.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wild_animals"
+        mc:Ignorable="d"
+        Title="Козырев" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Image Source="E:\ИСРПО\wild_animals\Pictures\elephant.jpg" Grid.Row="0" Grid.Column="0"></Image>
+        <Image Source="E:\ИСРПО\wild_animals\Pictures\жираф.jpg" Grid.Row="0" Grid.Column="1"></Image>
+        <Image Source="E:\ИСРПО\wild_animals\Pictures\тигр.jpg" Grid.Row="0" Grid.Column="2"></Image>
+        <TextBlock Grid.Row="1" Grid.Column="2"  TextWrapping="Wrap"  Text="Тигр — хищное млекопитающее семейства кошачьих, один из пяти видов рода пантер, принадлежащего к подсемейству больших кошек." FontSize="15" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Height="172" Width="241"/>
+        <TextBlock Grid.Row="1" Grid.Column="0"  TextWrapping="Wrap"  Text="Слоны — самые крупные наземные животные на Земле. Обитают они в Юго-Восточной Азии и Африке в тропических лесах и саваннах." FontSize="15" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Height="172" Width="241"/>
+        <TextBlock Grid.Row="1" Grid.Column="1"  TextWrapping="Wrap"  Text="Жираф — парнокопытное млекопитающее из семейства жирафовых. Является самым высоким наземным животным планеты" FontSize="15" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Height="172" Width="241"/>
+    </Grid>
+</Window>
