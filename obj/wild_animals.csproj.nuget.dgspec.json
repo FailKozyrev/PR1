@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\ИСРПО\\wild_animals\\wild_animals.csproj": {}
+    "C:\\Users\\user\\Desktop\\wild_animals\\wild_animals.csproj": {}
   },
   "projects": {
-    "E:\\ИСРПО\\wild_animals\\wild_animals.csproj": {
+    "C:\\Users\\user\\Desktop\\wild_animals\\wild_animals.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ИСРПО\\wild_animals\\wild_animals.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\wild_animals\\wild_animals.csproj",
         "projectName": "wild_animals",
-        "projectPath": "E:\\ИСРПО\\wild_animals\\wild_animals.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\wild_animals\\wild_animals.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "E:\\ИСРПО\\wild_animals\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\wild_animals\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
